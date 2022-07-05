@@ -1,0 +1,21 @@
+server:
+  port: 8443
+  ssl:
+    key-store: classpath:mykeys.jks
+    key-store-password:  letmein
+    key-password: letmein
+  
+
+spring:
+  liquibase:
+    enabled: true
+    change-log: classpath:/db/changelog/changelog-master.xml
+   
+
+  main:
+    banner-mode: console
+  thymeleaf:
+    cache: false
+    
+    
+       
