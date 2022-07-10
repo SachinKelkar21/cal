@@ -8,6 +8,7 @@ public class ReadingListApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ReadingListApplication.class, args);
+		System.out.print("This is my first commet");
 	}
 
 }
