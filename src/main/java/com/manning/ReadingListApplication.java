@@ -14,6 +14,7 @@ public class ReadingListApplication {
 		System.out.print("This is my fifth commet");
 		System.out.print("This is my sixth commet");
 		System.out.print("This is my seventh commet");
+		System.out.print("This is my eight commet");
 		
 	}
 
