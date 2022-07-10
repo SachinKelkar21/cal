@@ -10,6 +10,7 @@ public class ReadingListApplication {
 		SpringApplication.run(ReadingListApplication.class, args);
 		System.out.print("This is my first commet");
 		System.out.print("This is my Second commet");
+		System.out.print("This is my fourth commet");
 	}
 
 }
