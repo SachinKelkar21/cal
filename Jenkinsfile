@@ -5,7 +5,6 @@ node {
 	
 	stage('Build') {
 		echo 'Building....'
-		sh 'make'
 		archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
 	}
 	stage('Test') {
@@ -13,6 +12,9 @@ node {
 	}
 	stage('Deploy') {
 		echo 'Deploying....'
+		if (currentBuild.result == null || currentBuild.result == 'SUCCESS') { 1
+			echo 'Deployed sucessfully....'
+		}
 	}
  	
 
