@@ -1,3 +1,3 @@
-FROM tomcat:8
-LABEL app=my-app
-COPY target/*.war /usr/local/tomcat/webapps/ReadingList.war
+FROM node:16-alpine
+
+RUN apk add -U git curl
